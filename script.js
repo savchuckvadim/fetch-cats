@@ -32,7 +32,9 @@ async function getResponse() {
 
 getResponse();
 
-
+setInterval(() => {
+    document.location.reload();
+}, 2000);
 
 // let htmlCats = document.querySelector('#cats');
 
