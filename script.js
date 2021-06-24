@@ -16,14 +16,8 @@ async function getResponse() {
     for (key in content) {
         console.log(content[key].url);
 
-        list.innerHTML += `
-        <ul>
-            <li>
-                
-                <img src="${content[key].url}" id="cats" alt="img${key}">
-            </li>
-       
-        </ul>
+        list.innerHTML = `
+        <img src="${content[key].url}" id="cats" alt="img${key}">
     `
     }
     
