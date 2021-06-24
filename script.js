@@ -11,10 +11,7 @@ async function getResponse() {
 
      console.log(json);
 
-    // for(let i=0; i< 10; i++){
-    //     console.log(json[i].url);
-    // }
-
+    
     let key;
     for (key in content) {
         console.log(content[key].url);
@@ -29,7 +26,7 @@ async function getResponse() {
         </ul>
     `
     }
-    //await setTimeout(document.location.reload(), 10000);
+    
 }
 
 
