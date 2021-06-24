@@ -34,7 +34,7 @@ getResponse();
 
 setInterval(() => {
     document.location.reload();
-}, 2000);
+}, 10000);
 
 // let htmlCats = document.querySelector('#cats');
 
