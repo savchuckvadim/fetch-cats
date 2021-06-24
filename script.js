@@ -23,12 +23,12 @@ async function getResponse() {
     
 }
 
+setInterval(() =>{getResponse()}, 5000);
 
-getResponse();
 
-setInterval(() => {
-    document.location.reload();
-}, 5000);
+// setInterval(() => {
+//     document.location.reload();
+// }, 5000);
 
 // let htmlCats = document.querySelector('#cats');
 
